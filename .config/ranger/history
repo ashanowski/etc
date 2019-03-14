@@ -1,6 +1,3 @@
-shell sudo nvim php.ini-pre1.7.2
-shell cp mobilenvi-python mobilenvi-python2
-search mob
 shell mkdir webdev
 shell mkdir hehe
 search conf
@@ -46,5 +43,8 @@ shell sudo ln -s ~/etc/.bashrc ~/
 search .steam
 open_with nvim
 search etc
-delete
 open_with 
+search nvim
+open_with firefox
+open_with chromium
+delete

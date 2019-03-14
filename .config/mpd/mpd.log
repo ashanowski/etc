@@ -1466,3 +1466,5 @@ Mar 14 01:27 : avahi: Client Disconnected, will reconnect shortly
 Mar 14 01:27 : avahi: Could not reconnect: Daemon not running
 Mar 14 09:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Mar 14 09:48 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 14 18:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 14 18:16 : exception: inotify_add_watch() has failed: No such file or directory
