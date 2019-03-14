@@ -35,7 +35,7 @@ Bash completion is tweaked in ```.inputrc``` file, prompt template for normal di
 I'm using [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) for git repositories:
 
 * `.git-prompt-colors` stores the very basic git prompt I've tweaked a little bit (color stuff)
-TODO
+
 
 ## bspwm setup
 TODO
