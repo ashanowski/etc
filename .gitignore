@@ -3,6 +3,7 @@
 .config/spotify/
 .config/tox/
 .config/Code/
+.config/ranger/history
 .config/Lindo/
 .config/qBittorrent/
 .config/GIMP/
@@ -12,12 +13,18 @@
 .config/gtk-2.0/
 .config/gtk-3.0/
 .config/0ad/
+.config/mpd/mpd.state
+.config/mpd/state
+.config/mpd/mpd.log
 .config/cef_user_data/
 .config/gconf/
 .config/sublime-text-3/
+.config/nvim/plugged
 
 .dbus/
 .local/
 .mozilla/
 .oh-my-zsh/
 .ssh/
+.fehbg
+
