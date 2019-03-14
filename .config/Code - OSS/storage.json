@@ -1,0 +1,45 @@
+{
+    "telemetry.machineId": "2508f22ac449d052ba19c0b97b8074f7fa6f8124432cca4c7946f32f2989431b",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "pickerWorkingDir": "/home/gonz/src/ZPI",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///opt/lampp/htdocs/projects/pisw",
+            "file:///opt/lampp/htdocs/projects/drukara",
+            "file:///opt/lampp/htdocs/projects/js-test",
+            "file:///opt/lampp/htdocs/projects/pisw2",
+            "file:///home/gonz/src/django/testproject",
+            "file:///home/gonz/src/ZPI/Mobilenvi-client",
+            "file:///home/gonz/src/ZPI/mobilenvi-python",
+            "file:///home/gonz/src/python/mobilenvi-python",
+            "file:///home/gonz/src/angular/pisw-angular",
+            "file:///opt/lampp/htdocs",
+            "file:///home/gonz/src/angular/angular-crash-course",
+            "file:///home/gonz/src/angular/angular-tour-of-heroes/src"
+        ],
+        "files2": [
+            "file:///tmp/mozilla_gonz0/plik_190312104100.rtf"
+        ]
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/opt/lampp/htdocs/projects/drukara",
+                "external": "file:///opt/lampp/htdocs/projects/drukara",
+                "path": "/opt/lampp/htdocs/projects/drukara",
+                "scheme": "file"
+            },
+            "backupPath": "/home/gonz/.config/Code - OSS/Backups/5fdaac7785033b026aaa32df97948d02",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 43,
+                "width": 1366,
+                "height": 725
+            }
+        }
+    }
+}

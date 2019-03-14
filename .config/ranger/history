@@ -1,0 +1,50 @@
+shell sudo nvim php.ini-pre1.7.2
+shell cp mobilenvi-python mobilenvi-python2
+search mob
+shell mkdir webdev
+shell mkdir hehe
+search conf
+search .config
+search
+search .conf
+shell nvim user-dirs.dirs
+search .com
+search composer
+search bin
+w
+shell nvim index.html
+shell mkdir html1
+shell mkdir HTML2
+shell unzip HTML1_Baran_Kasprzak.zip
+rename pisw2_przedzmianami
+shell nvim .gitignore
+rename info.html_
+
+rename info.html
+shell gimp jan-kasprzak.jpg
+shell touch hehe
+rename zadanie4.txt
+rename zadanie4.sh
+rename lista.txt
+rename output.txt
+rename plik1.txt
+rename plik2.txt
+rename plik3.txt
+search custom
+search .bash-prom
+search .bash
+search .git
+search comple
+search usr
+search sh
+search bash
+search git
+shell sudo ln -s .bash-git-prompt/ ~/.bash-git-prompt
+shell 
+search .git-
+shell sudo ln -s ~/etc/.bashrc ~/
+search .steam
+open_with nvim
+search etc
+delete
+open_with 

@@ -1,0 +1,69 @@
+[2019-03-11 16:35:59.025] [sharedprocess] [info] main {"machineId":"2508f22ac449d052ba19c0b97b8074f7fa6f8124432cca4c7946f32f2989431b"}
+[2019-03-11 16:35:59.157] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:35:59.178] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:35:59.188] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:35:59.257] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:35:59.261] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:35:59.269] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:35:59.895] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:39.053] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-03-11 16:36:44.928] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:44.939] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:44.945] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:44.952] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:45.057] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:45.060] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:45.072] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:51.553] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.554] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.556] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.558] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.565] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.569] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.573] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:36:51.890] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:51.907] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:51.920] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:51.927] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:51.948] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:51.959] [sharedprocess] [info] Scanned system extensions: 71
+[2019-03-11 16:36:54.136] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:37:24.870] [sharedprocess] [info] Installing extension: xabikos.javascriptsnippets
+[2019-03-11 16:37:24.887] [sharedprocess] [info] Scanned user extensions: 6
+[2019-03-11 16:37:25.528] [sharedprocess] [info] Downloaded extension: xabikos.javascriptsnippets /tmp/eb918418-abd5-436e-975e-aa7385e644c6
+[2019-03-11 16:37:25.574] [sharedprocess] [info] Extracted extension to /home/gonz/.vscode-oss/extensions/.xabikos.javascriptsnippets-1.7.2: xabikos.javascriptsnippets
+[2019-03-11 16:37:25.574] [sharedprocess] [info] Renamed to /home/gonz/.vscode-oss/extensions/xabikos.javascriptsnippets-1.7.2
+[2019-03-11 16:37:25.575] [sharedprocess] [info] Installation completed. xabikos.javascriptsnippets
+[2019-03-11 16:37:25.590] [sharedprocess] [info] Extensions installed successfully: xabikos.javascriptsnippets
+[2019-03-11 16:41:54.273] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 16:46:54.297] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 16:51:54.315] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 16:56:54.362] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:01:54.393] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:06:54.424] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:11:54.444] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:16:54.461] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:21:54.486] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:26:54.504] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:31:54.532] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:36:54.578] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:41:54.600] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:46:54.624] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:51:54.655] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 17:56:54.683] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 18:01:54.708] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:23:41.415] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:28:41.441] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:33:41.466] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:38:41.485] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:43:41.518] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:48:41.538] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:53:41.582] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 21:58:41.613] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:03:41.639] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:08:41.668] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:13:41.690] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:18:41.749] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:23:41.791] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:28:41.819] [sharedprocess] [info] Scanned user extensions: 7
+[2019-03-11 22:33:41.831] [sharedprocess] [info] Scanned user extensions: 7

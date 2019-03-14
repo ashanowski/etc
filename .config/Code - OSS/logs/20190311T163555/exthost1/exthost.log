@@ -1,0 +1,69 @@
+[2019-03-11 16:35:58.421] [exthost] [info] extension host started
+[2019-03-11 16:35:58.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:35:58.452] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-03-11 16:35:58.459] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:35:58.459] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/emmet/dist/extension
+[2019-03-11 16:35:58.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:35:58.480] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/git/dist/main
+[2019-03-11 16:35:58.612] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:35:58.612] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/merge-conflict/dist/extension
+[2019-03-11 16:35:58.621] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:35:58.621] [exthost] [info] ExtensionService#loadCommonJSModule /home/gonz/.vscode-oss/extensions/vscodevim.vim-1.1.0/out/extension
+[2019-03-11 16:35:59.510] [exthost] [info] eager extensions activated
+[2019-03-11 16:36:42.003] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django {"startup":false,"activationEvent":"onLanguage:django-html"}
+[2019-03-11 16:36:42.003] [exthost] [info] ExtensionService#loadCommonJSModule /home/gonz/.vscode-oss/extensions/batisteo.vscode-django-0.19.0/out/extension
+[2019-03-11 16:36:42.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-11 16:36:42.767] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/configuration-editing/dist/extension
+[2019-03-11 16:36:42.803] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-11 16:36:42.803] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-03-11 16:36:42.940] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-11 16:36:42.940] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2019-03-11 16:36:52.750] [exthost] [info] extension host started
+[2019-03-11 16:36:52.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:36:52.812] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-03-11 16:36:52.819] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:36:52.819] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/emmet/dist/extension
+[2019-03-11 16:36:52.853] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:36:52.853] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/git/dist/main
+[2019-03-11 16:36:53.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:36:53.019] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/merge-conflict/dist/extension
+[2019-03-11 16:36:53.029] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-03-11 16:36:53.029] [exthost] [info] ExtensionService#loadCommonJSModule /home/gonz/.vscode-oss/extensions/vscodevim.vim-1.1.0/out/extension
+[2019-03-11 16:36:53.694] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-03-11 16:36:53.694] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-03-11 16:36:53.782] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-03-11 16:36:53.782] [exthost] [info] ExtensionService#loadCommonJSModule /home/gonz/.vscode-oss/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-03-11 16:36:54.469] [exthost] [info] eager extensions activated
+[2019-03-11 16:36:54.769] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-11 16:36:54.769] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/configuration-editing/dist/extension
+[2019-03-11 16:36:54.805] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-11 16:36:54.805] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-03-11 16:36:55.065] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-03-11 16:36:55.065] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code-oss/resources/app/extensions/typescript-language-features/dist/extension
+[2019-03-11 16:39:38.707] [exthost] [error] [vscode.emmet] provider FAILED
+[2019-03-11 16:39:38.710] [exthost] [error] TypeError: Cannot read property 'toString' of undefined
+	at Object.l [as isValidLocationForEmmetAbbreviation] (/usr/lib/code-oss/resources/app/extensions/emmet/dist/extension.js:1:31307)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/lib/code-oss/resources/app/extensions/emmet/dist/extension.js:1:46624)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/lib/code-oss/resources/app/extensions/emmet/dist/extension.js:1:45028)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:546:852
+	at t.asPromise (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:385)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:353)
+	at e.provideCompletionItems (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:546:812)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:560:950
+	at e._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:292)
+	at e.$provideCompletionItems (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:560:912)
+	at t._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:644:118)
+	at t._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:643:744)
+	at t._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:642:256)
+	at t._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:641:155)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:638:960
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:38:994
+	at e.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:44:113)
+	at a (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:213)
+	at Socket.f._socketDataListener (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:170:434)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
