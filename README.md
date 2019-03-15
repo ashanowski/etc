@@ -38,7 +38,8 @@ I'm using [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) for g
 
 
 ## bspwm setup
-TODO
+`.config/bspwm/bspwmrc` - bspwm configuration files
+`.config/sxhkd/sxhkdrc` - defining keyboard shortcuts to use with bspwm
 
 ## URxvt setup
 TODO
