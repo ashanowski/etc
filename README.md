@@ -38,9 +38,9 @@ I'm using [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) for g
 * `.bash-git-prompt/` is the main directory of bash-git-prompt, containing themes and various scripts managing the overall look of the prompt, symlinked to `$HOME`
 
 ## URxvt setup
-I've chosen to use URxvt as my terminal, providing any tweaks in `$HOME/.Xresources`. The font is [Sauce Code Pro](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro) for Powerline - this ensures that any ticksigns and custom characters are shown properly in the git prompt. This font can be found in `.fonts/` and is symlinked to `$HOME`.
+I've chosen to use [URxvt](https://wiki.archlinux.org/index.php/rxvt-unicode) as my terminal, providing any tweaks in `$HOME/.Xresources`. The font is [Sauce Code Pro](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro) for Powerline - this ensures that any ticksigns and custom characters are shown properly in the git prompt. This font can be found in `.fonts/` and is symlinked to `$HOME`.
 
-`.Xresources` contains additional configuration lines for [rofi](https://github.com/DaveDavenport/rofi), which I use to launch applications. The file itself also contains colors definitions as well as true transparency in terminal.
+`.Xresources` contains additional configuration lines for [rofi](https://github.com/DaveDavenport/rofi), which I use to launch applications. The file itself also contains colors definitions as well as tweaks like true transparency in terminal.
 
 !TODO
 
