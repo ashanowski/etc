@@ -22,11 +22,11 @@ My current /home/user tree looks like this
 5 directories, 0 files
 ```
 
-* ```bin``` - personal scripts, directory appended to ```$PATH``` 
-* ```etc``` - storing config files that are symlinked to ```/home/user``` and other locations
-* ```src``` - directory for source files, I'm using it to store various scripts, sorted by language
-* ```usr``` - personal files like images, music, scrots and other
-* ```var``` - directory used to sort files to other destinations
+* `bin` - personal scripts, directory appended to ```$PATH``` 
+* `etc` - storing config files that are symlinked to ```/home/user``` and other locations
+* `src` - directory for source files, I'm using it to store various scripts, sorted by language
+* `usr` - personal files like images, music, scrots and other
+* `var` - directory used to sort files to other destinations
 
 ## Bash setup
 I'm using bash version 5.0.2 with basic prompt colors and git status prompt when cd'd into a directory with .git file in it.
@@ -38,7 +38,8 @@ I'm using [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) for g
 
 
 ## bspwm setup
-TODO
+`.config/bspwm/bspwmrc` - bspwm configuration files
+`.config/sxhkd/sxhkdrc` - defining keyboard shortcuts to use with bspwm
 
 ## URxvt setup
 TODO
