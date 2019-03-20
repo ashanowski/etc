@@ -12,5 +12,9 @@
     "workbench.tree.indent": 20,
     "window.zoomLevel": 0,
     "editor.detectIndentation": false,
-    "python.linting.pep8Args": ["--ignore=E501", "--verbose"]
+    "python.linting.pep8Args": [
+        "--ignore=E501",
+        "--verbose"
+    ],
+    "explorer.confirmDragAndDrop": false
 }

@@ -25,7 +25,6 @@ if vim_plug_just_installed
 endif
 
 " Obscure hacks done, you can now modify the rest of the .vimrc as you wish :)
-
 " ============================================================================
 " Active plugins
 " You can disable or add new ones here:
@@ -165,10 +164,10 @@ set nu
 " remove ugly vertical lines on window division
 set fillchars+=vert:\ 
 
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 " use 256 colors when possible
 if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
-	let &t_Co = 256
+    let &t_Co = 256
     colorscheme default
     set background=light
 else
@@ -341,9 +340,16 @@ nmap ,sp <plug>(signify-prev-hunk)
 highlight DiffAdd           cterm=bold ctermbg=none ctermfg=119
 highlight DiffDelete        cterm=bold ctermbg=none ctermfg=167
 highlight DiffChange        cterm=bold ctermbg=none ctermfg=227
-highlight SignifySignAdd    cterm=bold ctermbg=237  ctermfg=119
-highlight SignifySignDelete cterm=bold ctermbg=237  ctermfg=167
-highlight SignifySignChange cterm=bold ctermbg=237  ctermfg=227
+highlight SignifySignAdd    cterm=bold ctermbg=none  ctermfg=119
+highlight SignifySignDelete cterm=bold ctermbg=none  ctermfg=167
+highlight SignifySignChange cterm=bold ctermbg=none  ctermfg=227
+highlight ErrorMsg          cterm=bold ctermbg=none ctermfg=167
+highlight MatchParen        cterm=bold ctermbg=none ctermfg=202
+highlight SpellLocal        cterm=none ctermbg=none ctermfg=227
+highlight Search            cterm=bold ctermbg=none ctermfg=119
+highlight Visual            cterm=reverse ctermbg=none
+
+
 
 " Autoclose ------------------------------
 

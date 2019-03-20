@@ -1468,3 +1468,41 @@ Mar 14 09:48 : exception: RTIOThread could not get realtime scheduling, continui
 Mar 14 09:48 : exception: inotify_add_watch() has failed: No such file or directory
 Mar 14 18:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Mar 14 18:16 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 15 02:21 : avahi: Client Disconnected, will reconnect shortly
+Mar 15 02:21 : avahi: Could not reconnect: Daemon not running
+Mar 15 10:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 15 10:03 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 15 18:40 : avahi: Client Disconnected, will reconnect shortly
+Mar 15 18:40 : avahi: Could not reconnect: Daemon not running
+Mar 17 14:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 17 14:23 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 17 23:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 17 23:08 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 18 01:59 : avahi: Client Disconnected, will reconnect shortly
+Mar 18 01:59 : avahi: Could not reconnect: Daemon not running
+Mar 18 10:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 10:32 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 18 12:48 : avahi: Client Disconnected, will reconnect shortly
+Mar 18 12:48 : avahi: Could not reconnect: Daemon not running
+Mar 18 13:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 13:22 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 18 16:39 : avahi: Client Disconnected, will reconnect shortly
+Mar 18 16:39 : avahi: Could not reconnect: Daemon not running
+Mar 18 17:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 17:26 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 18 17:35 : avahi: Client Disconnected, will reconnect shortly
+Mar 18 17:35 : avahi: Could not reconnect: Daemon not running
+Mar 18 18:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 18 18:27 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 19 02:36 : avahi: Client Disconnected, will reconnect shortly
+Mar 19 02:36 : avahi: Could not reconnect: Daemon not running
+Mar 19 10:07 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 19 10:07 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 20 01:48 : avahi: Client Disconnected, will reconnect shortly
+Mar 20 01:48 : avahi: Could not reconnect: Daemon not running
+Mar 20 09:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 20 09:48 : exception: inotify_add_watch() has failed: No such file or directory
+Mar 20 13:58 : avahi: Client Disconnected, will reconnect shortly
+Mar 20 13:58 : avahi: Could not reconnect: Daemon not running
+Mar 20 19:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Mar 20 19:18 : exception: inotify_add_watch() has failed: No such file or directory
