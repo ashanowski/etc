@@ -42,6 +42,7 @@ I've chosen to use [URxvt](https://wiki.archlinux.org/index.php/rxvt-unicode) as
 
 `.Xresources` contains additional configuration lines for [rofi](https://github.com/DaveDavenport/rofi), which I use to launch applications. The file itself also contains colors definitions as well as tweaks like true transparency in terminal.
 
+Any changes to `.Xresources` will be seen after either restarting Xorg server or running `xrdb -merge .Xresources` command. 
 !TODO
 
 
