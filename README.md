@@ -29,17 +29,24 @@ My current /home/user tree looks like this
 * `var` - directory used to sort files to other destinations
 
 ## Bash setup
-I'm using bash version 5.0.2 with basic prompt colors and git status prompt when cd'd into a directory with .git file in it.
+I'm using bash as my shell with basic prompt colors and git status prompt when cd'd into a directory with .git file in it.
 
-Bash completion is tweaked in ```.inputrc``` file, prompt template for normal directories is stored in ```.bashrc```.
+Bash completion is tweaked in `.inputrc` file, prompt template for normal directories is stored in `.bashrc`.
 I'm using [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) for git repositories:
 
-* `.git-prompt-colors` stores the very basic git prompt I've tweaked a little bit (color stuff)
+* `.git-prompt-colors.sh` stores the very basic git prompt I've tweaked a little bit (color stuff)
+* `.bash-git-prompt/` is the main directory of bash-git-prompt, containing themes and various scripts managing the overall look of the prompt, symlinked to `$HOME`
+
+## URxvt setup
+I've chosen to use URxvt as my terminal, providing any tweaks in `$HOME/.Xresources`. The font is [Sauce Code Pro](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro) for Powerline - this ensures that any ticksigns and custom characters are shown properly in the git prompt. This font can be found in `.fonts/` and is symlinked to `$HOME`.
+
+`.Xresources` contains additional configuration lines for [rofi](https://github.com/DaveDavenport/rofi), which I use to launch applications. The file itself also contains colors definitions as well as true transparency in terminal.
+
+!TODO
 
 
 ## bspwm setup
 `.config/bspwm/bspwmrc` - bspwm configuration files
 `.config/sxhkd/sxhkdrc` - defining keyboard shortcuts to use with bspwm
 
-## URxvt setup
-TODO
+
