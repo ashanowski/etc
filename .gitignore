@@ -20,7 +20,7 @@
 .config/gconf/
 .config/sublime-text-3/
 .config/nvim/plugged/
-.config/Code - OSS/
+.config/Code - OSS
 
 .dbus/
 .local/
@@ -28,4 +28,3 @@
 .oh-my-zsh/
 .ssh/
 .fehbg
-
