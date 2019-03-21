@@ -59,6 +59,10 @@ Any changes to `.Xresources` will be seen after either restarting Xorg server or
 
 `sxhkdrc` contains all the shortcuts, as stated above. **NOTE:** Use TABs instead of spaces when doing an indent inside `sxhkdrc`.
 
+
+## polybar
+
+!TODO
 ## Development
 
 ### IDE
@@ -72,4 +76,4 @@ I've switched from `vim` to `neovim` as it eases the usage of Plugins, while hav
 I'm running Python versions 3.6.8 and 3.7.2, each installed to its own virtual environment. This is set up using `virtualenv` and `virtualenvwrapper`.
 `.bashrc` contains exports for virtualenvs home directory, disables viewing env in the prompt when PS1 is not set and aliases for every env. 
 
-There's a function defined inside `.bashrc` called `virtualenv_info()` that checks whether any virtual env is currently active and sets `$VENAME` variable to version of Python that runs on that env. This variable is then used by PS1 and git prompt to show the current version of Python if using virtual env.
+There's a function defined inside `.bashrc` called `virtualenv_info()` that checks whether any virtual env is currently active and sets `$VENAME` variable to version of Python that runs on that env, which is used by PS1 and git prompt.
