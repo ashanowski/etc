@@ -17,8 +17,8 @@ source $HOME/.local/bin/virtualenvwrapper.sh
 export WORKON_HOME=$HOME/src/virtual_envs_python
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
-alias p36="source $HOME/src/virtual_envs_python/p36/bin/activate"
-alias p37="source $HOME/src/virtual_envs_python/p37/bin/activate"
+alias p36="workon p36"
+alias p37="workon p37"
 
 
 function virtualenv_info(){
@@ -30,8 +30,7 @@ function virtualenv_info(){
         # In case you don't have one activated
         venv=''
     fi
-    [ "$VIRTUAL_ENV" = "$WORKON_HOME/p36" ] && VENAME="Python 3.6"
-    [ "$VIRTUAL_ENV" = "$WORKON_HOME/p37" ] && VENAME="Python 3.7.2"
+    [ -d "$VIRTUAL_ENV" ] && VENAME=$(python --version)
 
     [ $VIRTUAL_ENV ] && echo "$VENAME"
 }

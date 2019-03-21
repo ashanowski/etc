@@ -16,6 +16,7 @@
 .config/mpd/mpd.state
 .config/mpd/state
 .config/mpd/mpd.log
+.config/mpd/mpd.pid
 .config/pulse
 .config/cef_user_data/
 .config/gconf/
