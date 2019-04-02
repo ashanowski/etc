@@ -17,11 +17,53 @@ menu-1 = item 2;command
 menu-1-0 = sub-item 2.1;command
 menu-1-1 = sub-item 2.2;command
 
-[bar/top]
-width = 100%
+[bar/top_external]
+bottom = false
+monitor = VGA1
+
+modules-left = bspwm
+modules-center = xwindow
+modules-right = updates volume battery wlan date
+
 height = 30
 ;offset-x = 1%
 ;offset-y = 1%
+radius = 6.0
+fixed-center = false
+
+background = #cc000000
+foreground = #ffffff
+
+line-size = 3
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+padding-left = 5
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 1
+
+font-0 = SauceCodePro Nerd Font for Powerline:size=10:style=Regular
+font-1 = FontAwesome:size=12:style=Regular
+
+
+tray-position = right
+tray-padding = 2
+;tray-background = #0063ff
+
+wm-restack = bspwm
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+
+[bar/top]
+
+monitor = "LVDS1"
+height = 30
 radius = 6.0
 fixed-center = false
 
@@ -49,17 +91,9 @@ modules-right = updates volume battery wlan date
 
 tray-position = right
 tray-padding = 2
-tray-transparent = false
 ;tray-background = #0063ff
 
 wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-
-;scroll-up = i3wm-wsnext
 
 [module/xwindow]
 type = internal/xwindow
@@ -84,11 +118,18 @@ label-indicator-underline = ${colors.secondary}
 [module/bspwm]
 type = internal/bspwm
 
+pin-workspaces = true
+
 ws-icon-0 = web;
 ws-icon-1 = term;
 ws-icon-2 = chat;
 ws-icon-3 = code;
 ws-icon-4 = music;
+ws-icon-5 = ext1;
+ws-icon-6 = ext2;
+ws-icon-7 = ext3;
+ws-icon-8 = ext4;
+ws-icon-9 = ext5;
 format = <label-state> 
 
 label-focused = %icon%

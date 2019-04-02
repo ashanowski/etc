@@ -271,7 +271,7 @@ nmap ,f :BLines<CR>
 " general code finder in all files mapping
 nmap ,F :Lines<CR>
 " commands finder mapping
-nmap ,c :Commands<CR>
+" nmap ,c :Commands<CR>
 " to be able to call CtrlP with default search text
 "function! CtrlPWithSearchText(search_text, ctrlp_command_end)
     "execute ':CtrlP' . a:ctrlp_command_end
