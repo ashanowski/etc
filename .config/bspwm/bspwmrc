@@ -47,7 +47,7 @@ compton -f &
 #polybar top &
 
 if [ -x /usr/bin/polybar ]; then
-    bash $HOME/.config/polybar/launch.sh
+    $HOME/.config/polybar/launch.sh
 fi
 
 
