@@ -1,3 +1,4 @@
+# Colors {{{
 [colors]
 ;background = ${xrdb:color0:#222}
 ;background-alt = #444
@@ -7,16 +8,46 @@ foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
+# }}}
 
-[modules/xmenu]
-menu-0 = item 1;command
-menu-0-0 = sub-item 1.1;command
-menu-0-1 = sub-item 1.2;command
-menu-0-2 = sub-item 1.3;command
-menu-1 = item 2;command
-menu-1-0 = sub-item 2.1;command
-menu-1-1 = sub-item 2.2;command
+# Main monitor polybar {{{
+[bar/top]
 
+monitor = "LVDS1"
+height = 30
+radius = 6.0
+fixed-center = false
+
+background = #181818
+foreground = #ffffff
+
+line-size = 3
+line-color = #f00
+
+border-size = 2
+border-color = #00000000
+
+padding-left = 5
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 1
+
+font-0 = SauceCodePro Nerd Font for Powerline:size=10:style=Regular
+font-1 = FontAwesome:size=12:style=Regular
+
+modules-left = bspwm
+modules-center = xwindow
+modules-right = updates volume battery wlan date
+
+tray-position = right
+tray-padding = 2
+;tray-background = #0063ff
+
+wm-restack = bspwm
+# }}}
+
+# External monitor polybar {{{
 [bar/top_external]
 bottom = false
 monitor = VGA1
@@ -28,7 +59,7 @@ modules-right = updates volume battery wlan date
 height = 30
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 6.0
+radius = 0
 fixed-center = false
 
 background = #cc000000
@@ -38,7 +69,7 @@ line-size = 3
 line-color = #f00
 
 border-size = 4
-border-color = #00000000
+border-color = #000000
 
 padding-left = 5
 padding-right = 2
@@ -60,40 +91,17 @@ wm-restack = bspwm
 
 ;scroll-up = bspwm-desknext
 
-[bar/top]
+# }}}
 
-monitor = "LVDS1"
-height = 30
-radius = 6.0
-fixed-center = false
-
-background = #cc000000
-foreground = #ffffff
-
-line-size = 3
-line-color = #f00
-
-border-size = 4
-border-color = #00000000
-
-padding-left = 5
-padding-right = 2
-
-module-margin-left = 2
-module-margin-right = 1
-
-font-0 = SauceCodePro Nerd Font for Powerline:size=10:style=Regular
-font-1 = FontAwesome:size=12:style=Regular
-
-modules-left = bspwm
-modules-center = xwindow
-modules-right = updates volume battery wlan date
-
-tray-position = right
-tray-padding = 2
-;tray-background = #0063ff
-
-wm-restack = bspwm
+# Modules {{{
+[modules/xmenu]
+menu-0 = item 1;command
+menu-0-0 = sub-item 1.1;command
+menu-0-1 = sub-item 1.2;command
+menu-0-2 = sub-item 1.3;command
+menu-1 = item 2;command
+menu-1-0 = sub-item 2.1;command
+menu-1-1 = sub-item 2.2;command
 
 [module/xwindow]
 type = internal/xwindow
@@ -179,7 +187,6 @@ label = %date% %time%
 
 [module/updates]
 type = custom/script
-
 exec = updates.sh
 
 tail = true
@@ -349,13 +356,17 @@ ramp-free-4 = ▅
 ramp-free-5 = ▆
 ramp-free-6 = ▇
 ramp-free-7 = █
+# }}}
 
+# Settings {{{
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
 ;compositing-background = screen
 ;compositing-foreground = source
 ;compositing-border = over
+
+# }}}
 
 [global/wm]
 margin-top = 0

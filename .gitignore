@@ -23,6 +23,16 @@
 .config/sublime-text-3/
 .config/nvim/plugged/
 .config/Code - OSS
+.config/Postman/
+.config/configstore/
+.config/krdcrc
+.config/vlc/
+.config/libreoffice/
+.config/autostart/
+.config/Mattermost/
+.config/Electron/
+.config/base16-shell
+.zshrc
 
 .dbus/
 .local/

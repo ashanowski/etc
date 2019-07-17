@@ -1,12 +1,12 @@
+" Description {{{
+" ===========
 " Fisa-nvim-config
 " http://nvim.fisadev.com
 " version: 10.0
-
-" TODO current problems:
-" * end key not working undef tmux+fish
-
 " ============================================================================
-" Vim-plug initialization
+" }}}
+
+" Vim-plug initialization {{{
 " Avoid modify this section, unless you are very sure of what you are doing
 
 let vim_plug_just_installed = 0
@@ -24,16 +24,26 @@ if vim_plug_just_installed
     :execute 'source '.fnameescape(vim_plug_path)
 endif
 
-" Obscure hacks done, you can now modify the rest of the .vimrc as you wish :)
 " ============================================================================
-" Active plugins
-" You can disable or add new ones here:
+" }}}
+
+" Active plugins {{{
 
 " this needs to be here, so vim-plug knows we are declaring the plugins we
 " want to use
 call plug#begin('~/.config/nvim/plugged')
 
 " Now the actual plugins:
+
+" Base16 colorscheme
+Plug 'chriskempson/base16-vim'
+"Plug 'Soares/base16.nvim'
+
+" Tmux Vim-like navigation
+Plug 'christoomey/vim-tmux-navigator'
+
+" Python syntax colors
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
 " Override configs by directory
 Plug 'arielrossanigo/dir-configs-override.vim'
@@ -45,7 +55,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 
 " Class/module browser
-Plug 'majutsushi/tagbar'
+" Plug 'majutsushi/tagbar'
 " TODO known problems:
 " * current block not refreshing
 
@@ -63,11 +73,11 @@ Plug 'vim-airline/vim-airline-themes'
 " Plug 'ctrlpvim/ctrlp.vim'
 " Extension to ctrlp, for fuzzy command finder
 " Plug 'fisadev/vim-ctrlp-cmdpalette'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+" Plug 'junegunn/fzf.vim'
 
 " Pending tasks list
-Plug 'fisadev/FixedTaskList.vim'
+" Plug 'fisadev/FixedTaskList.vim'
 
 " Async autocompletion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -94,13 +104,15 @@ Plug 'jeetsukumaran/vim-indentwise'
 " Better language packs
 Plug 'sheerun/vim-polyglot'
 
+" Python folding
+Plug 'tmhedberg/SimpylFold'
+
 " Ack code search (requires ack installed in the system)
-Plug 'mileszs/ack.vim'
+" Plug 'mileszs/ack.vim'
 " TODO is there a way to prevent the progress which hides the editor?
 
 " Paint css colors with the real color
 Plug 'lilydjwg/colorizer'
-" TODO is there a better option for neovim?
 
 " Window chooser
 Plug 't9md/vim-choosewin'
@@ -125,8 +137,7 @@ Plug 'vim-scripts/YankRing.vim'
 
 " Linters
 Plug 'neomake/neomake'
-" TODO is it running on save? or when?
-" TODO not detecting errors, just style, is it using pylint?
+"
 
 " Relative numbering of lines (0 is the current line)
 " (disabled by default because is very intrusive and can't be easily toggled
@@ -141,7 +152,9 @@ Plug 'myusuf3/numbers.vim'
 call plug#end()
 
 " ============================================================================
-" Install plugins the first time vim runs
+" }}}
+
+" Install Plugin Initialization {{{
 
 if vim_plug_just_installed
     echo "Installing Bundles, please ignore key map error messages"
@@ -149,77 +162,9 @@ if vim_plug_just_installed
 endif
 
 " ============================================================================
-" Vim settings and mappings
-" You can edit them as you wish
+" }}}
 
-" tabs and spaces handling
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-
-" show line numbers
-set nu
-
-" remove ugly vertical lines on window division
-set fillchars+=vert:\ 
-
-let g:solarized_termcolors=256
-" use 256 colors when possible
-if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
-    let &t_Co = 256
-    colorscheme default
-    set background=light
-else
-    colorscheme default
-    set background=light
-endif
-
-" needed so deoplete can auto select the first suggestion
-set completeopt+=noinsert
-" comment this line to enable autocompletion preview window
-" (displays documentation related to the selected completion option)
-"set completeopt-=preview
-
-" autocompletion of files and commands behaves like shell
-" (complete only the common part, list the options that match)
-set wildmode=list:longest
-
-" save as sudo
-ca w!! w !sudo tee "%"
-
-" tab navigation mappings
-"map tt :tabnew 
-"map <M-Right> :tabn<CR>
-"imap <M-Right> <ESC>:tabn<CR>
-"map <M-Left> :tabp<CR>
-"imap <M-Left> <ESC>:tabp<CR>
-"
-nnoremap th  :tabfirst<CR>
-nnoremap tk  :tabnext<CR>
-nnoremap tj  :tabprev<CR>
-nnoremap tl  :tablast<CR>
-nnoremap tt  :tabedit<Space>
-nnoremap tn  :tabnext<Space>
-nnoremap tm  :tabm<Space>
-nnoremap td  :tabclose<CR>
-
-" when scrolling, keep cursor 3 lines away from screen border
-set scrolloff=3
-
-" clear search results
-nnoremap <silent> // :noh<CR>
-
-" clear empty spaces at the end of lines on save of python files
-autocmd BufWritePre *.py :%s/\s\+$//e
-
-" fix problems with uncommon shells (fish, xonsh) and plugins running commands
-" (neomake, ...)
-set shell=/bin/bash 
-
-" ============================================================================
-" Plugins settings and mappings
-" Edit them as you wish.
+" Plugins settings and mappings {{{
 
 " Tagbar -----------------------------
 
@@ -326,7 +271,7 @@ nmap  -  <Plug>(choosewin)
 " show big letters
 let g:choosewin_overlay_enable = 1
 
-"let mapleader = ","
+let mapleader = ","
 
 " Signify ------------------------------
 
@@ -336,20 +281,6 @@ let g:signify_vcs_list = [ 'git', 'hg' ]
 " mappings to jump to changed blocks
 nmap ,sn <plug>(signify-next-hunk)
 nmap ,sp <plug>(signify-prev-hunk)
-" nicer colors
-highlight DiffAdd           cterm=bold ctermbg=none ctermfg=119
-highlight DiffDelete        cterm=bold ctermbg=none ctermfg=167
-highlight DiffChange        cterm=bold ctermbg=none ctermfg=227
-highlight SignifySignAdd    cterm=bold ctermbg=none  ctermfg=119
-highlight SignifySignDelete cterm=bold ctermbg=none  ctermfg=167
-highlight SignifySignChange cterm=bold ctermbg=none  ctermfg=227
-highlight ErrorMsg          cterm=bold ctermbg=none ctermfg=167
-highlight MatchParen        cterm=bold ctermbg=none ctermfg=202
-highlight SpellLocal        cterm=none ctermbg=none ctermfg=227
-highlight Search            cterm=bold ctermbg=none ctermfg=119
-highlight Visual            cterm=reverse ctermbg=none
-
-
 
 " Autoclose ------------------------------
 
@@ -384,12 +315,91 @@ let g:airline_right_alt_sep = '⮃'
 let g:airline_symbols.branch = '⭠'
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
+" }}}
+
+" Vim settings and mappings {{{
+
+" tabs and spaces handling
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+" show line numbers
+set nu
+
+" remove ugly vertical lines on window division
+set fillchars+=vert:\ 
+
+
+"let g:solarized_termcolors=256
+" use 256 colors when possible
+"if (&term =~? 'mlterm\|xterm\|xterm-256\|screen-256') || has('nvim')
+    "let &t_Co = 256
+    "colorscheme default
+    "set background=light
+"else
+    "colorscheme default
+    "set background=light
+"endif
+let base16colorspace=256  " Access colors present in 256 colorspace
+colorscheme base16-default-dark
+
+" needed so deoplete can auto select the first suggestion
+set completeopt+=noinsert
+" comment this line to enable autocompletion preview window
+" (displays documentation related to the selected completion option)
+"set completeopt-=preview
+
+" autocompletion of files and commands behaves like shell
+" (complete only the common part, list the options that match)
+set wildmode=list:longest
+
+" save as sudo
+ca w!! w !sudo tee "%"
+
+" tab navigation mappings
+"map tt :tabnew 
+"map <M-Right> :tabn<CR>
+"imap <M-Right> <ESC>:tabn<CR>
+"map <M-Left> :tabp<CR>
+"imap <M-Left> <ESC>:tabp<CR>
+"
+nnoremap th  :tabfirst<CR>
+nnoremap tk  :tabnext<CR>
+nnoremap tj  :tabprev<CR>
+nnoremap tl  :tablast<CR>
+nnoremap tt  :tabedit<Space>
+nnoremap tn  :tabnext<Space>
+nnoremap tm  :tabm<Space>
+nnoremap td  :tabclose<CR>
+
+" when scrolling, keep cursor 3 lines away from screen border
+set scrolloff=3
+
+" clear search results
+nnoremap <silent> // :noh<CR>
+
+" clear empty spaces at the end of lines on save of python files
+autocmd BufWritePre *.py :%s/\s\+$//e
+
+map <Leader>p "+p
+map <Leader>y "+y
+" fix problems with uncommon shells (fish, xonsh) and plugins running commands
+" (neomake, ...)
+set shell=/bin/bash 
 
 " Move naturally between splits
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Set foldmethod
+set foldmethod=marker
+
+" Fold with spacebar in normal mode
+nnoremap <space> za
 
 " better backup, swap and undos storage
 set directory=~/.vim/dirs/tmp     " directory to place swap files in
@@ -413,3 +423,29 @@ if !isdirectory(&undodir)
 endif
 
 set noswapfile
+" ============================================================================
+" }}}
+
+" Highlights - colors customization {{{
+highlight DiffAdd           cterm=bold ctermbg=none ctermfg=119
+highlight DiffDelete        cterm=bold ctermbg=none ctermfg=167
+highlight DiffChange        cterm=bold ctermbg=none ctermfg=227
+highlight SpellBad        cterm=underline ctermbg=none ctermfg=167
+highlight SpellCap        cterm=underline ctermbg=none ctermfg=167
+highlight Error             cterm=bold ctermbg=none ctermfg=167
+highlight CursorColumn      ctermbg=none
+highlight SignifySignAdd    cterm=bold ctermbg=none  ctermfg=119
+highlight SignifySignDelete cterm=bold ctermbg=none  ctermfg=167
+highlight SignifySignChange cterm=bold ctermbg=none  ctermfg=227
+highlight ErrorMsg          cterm=bold ctermbg=none ctermfg=167
+highlight MatchParen        cterm=bold ctermbg=none ctermfg=202
+highlight SpellLocal        cterm=none ctermbg=none ctermfg=227
+highlight Search            cterm=bold ctermbg=none ctermfg=119
+highlight Visual            cterm=reverse ctermbg=none
+highlight SignColumn        ctermbg=none
+highlight Folded            ctermbg=none ctermfg=blue
+"highlight pythonStatement ctermfg=blue
+"highlight pythonFunction ctermfg=75
+"highlight pythonNumber ctermfg=2
+"}}}
+

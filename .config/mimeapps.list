@@ -10,6 +10,8 @@ application/x-extension-shtml=userapp-Firefox-2M8BUZ.desktop
 application/xhtml+xml=userapp-Firefox-2M8BUZ.desktop
 application/x-extension-xhtml=userapp-Firefox-2M8BUZ.desktop
 application/x-extension-xht=userapp-Firefox-2M8BUZ.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-FTLP2Z.desktop
+message/rfc822=userapp-Thunderbird-FTLP2Z.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Firefox-2M8BUZ.desktop;
@@ -23,3 +25,5 @@ application/x-extension-shtml=userapp-Firefox-2M8BUZ.desktop;
 application/xhtml+xml=userapp-Firefox-2M8BUZ.desktop;
 application/x-extension-xhtml=userapp-Firefox-2M8BUZ.desktop;
 application/x-extension-xht=userapp-Firefox-2M8BUZ.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-FTLP2Z.desktop;
+message/rfc822=userapp-Thunderbird-FTLP2Z.desktop;

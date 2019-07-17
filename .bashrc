@@ -12,7 +12,7 @@ source ~/.bash-git-prompt/gitprompt.sh
 source ~/.bash-git-prompt/prompt-colors.sh
 source /usr/share/bash-completion/completions/git
 
-source $HOME/.local/bin/virtualenvwrapper.sh
+# source $HOME/.local/bin/virtualenvwrapper.sh
 
 export WORKON_HOME=$HOME/src/virtual_envs_python
 export VIRTUAL_ENV_DISABLE_PROMPT=1
@@ -66,3 +66,9 @@ alias code='code-oss'
 
 # Open xtui from xtools as xt
 alias xt='xtui'
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        eval "$("$BASE16_SHELL/profile_helper.sh")"
