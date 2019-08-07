@@ -1,7 +1,3 @@
-export PATH="/home/gonz/.bash-git-prompt:$PATH"
-
-
-
 # Git prompt in bash
 # Set config variables first
 GIT_PROMPT_ONLY_IN_REPO=1
@@ -66,6 +62,7 @@ alias code='code-oss'
 
 # Open xtui from xtools as xt
 alias xt='xtui'
+
 
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
